@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+}
+
+.Headbox{
+    margin:6px;
+    background-color: skyblue;
+    color: black;
+    padding: 20px;
+    font-size: larger;
+    font-style:oblique;
+
+}
+.container{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+  
+
+}
+.containerbox{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+  }
+    .containerbox h2{
+        margin-top: 5px;
+        margin-bottom: 7px;
+        color: orange;
+        
+    }
+     .containerbox h5{
+        margin-top:5px;
+        margin-bottom: 5px;
+
+    }
+    
+   .containerbox   p{
+        
+        margin-top: 5px;
+        font-style: italic;
+    }
+  .containerbox    button{
+        margin-top: 7px;
+        margin-bottom: 3px;
+        background-color: orange;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+.btn{
+    background-color: skyblue;
+    border-radius: 100%;
+    padding: 30px;
+    margin: 10px;
+    font-size: 40px;
+    bottom: 30px;
+    right:30px;
+    position: fixed;
+    border: none;
+}
+.overlay{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.8;
+  z-index: 1;
+  display: none;
+}
+.pop-box{
+    width: 40%;
+    padding: 40px;
+    background-color: skyblue;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    display:none;
+  
+}
+.pop-box input{
+  background: transparent;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-bottom:solid black 2px ;
+
+}
+.pop-box textarea{
+  opacity: 0.8;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border:solid black 2px ;
+
+}
+.pop-box h2{
+  margin: 2px;
+  font-size: 30px;
+  padding: 2px;
+}
+.pop-box input::placeholder{
+  color:black
+}
+.pop-box textarea:placeholder{
+  color:black
+}
+.pop-box button{
+  background-color:black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  border: none;
+  padding-left: 20px;
+}
+.pop-box input:focus{
+  outline: none;
+}
+.pop-box textarea:focus{
+  outline: none;
+}
+

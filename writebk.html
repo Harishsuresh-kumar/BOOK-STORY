@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html >
+    <head>
+
+        <link rel="stylesheet" href="writebk.css">
+        <!--CSS LINK SHEET-->
+
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <title>Book.Web</title>
+
+    </head>
+    <body>
+        
+        
+    <div class="Headbox">
+         <h1>Book Story</h1>
+    </div>
+
+        <!--TEXT BOX -->
+    <div class="container">
+    <div class="containerbox">
+         <h2>Make a Country</h2>
+         <h5>Nelson</h5>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aliquid dolor error repellendus repellat, mollitia tenetur molestias magnam, unde ad consequatur impedit ipsa ipsum suscipit quia iure amet exercitationem. Dolore?</p>
+      <button onclick="delbook(event)">Delete</button>
+    </div>
+</div>
+
+    <!--ADD BUTTON-->
+        <button class="btn" >+</button>
+
+        <div class="overlay" id="overlay_box"> </div>
+        <!--POP FOR OVERLAY AND TEXT BOX-->
+
+    <div class="pop-box"  >
+            <h2> Add Book</h2>
+    <form >
+            <input type="text" placeholder="Book title" id="title-input">
+            <input type="text" placeholder="Author " id="author-input">
+            <textarea placeholder="short description" id="desc-input"></textarea>
+            <button id="add_book">Add book</button>
+            <button id="can_cel">Cancel</button>
+    </form>
+    </div>
+    <!--Always script should at end then only it check correctly DOM-->
+    <script src="writebk.js"></script>
+
+    </body>
+    </html>
